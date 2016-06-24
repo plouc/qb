@@ -1,0 +1,7 @@
+export const COMPARATOR_EQUAL        = 'equal'
+export const COMPARATOR_NOT_EQUAL    = 'not_equal'
+export const COMPARATOR_IN           = 'in'
+export const COMPARATOR_STARTS_WITH  = 'starts_with'
+export const COMPARATOR_ENDS_WITH    = 'ends_with'
+export const COMPARATOR_GREATER_THAN = 'greater_than'
+export const COMPARATOR_LOWER_THAN   = 'lower_than'

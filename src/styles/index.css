@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.condition-group:before,
+.condition-group:after {
+    vertical-align: middle;
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 32px;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+.condition-group:before {
+    border-right-width: 0;
+    margin-right: 7px;
+}
+.condition-group:after {
+    border-left-width: 0;
+    margin-left: 7px;
+}
+.condition-group_delete,
+.condition-group_add-clause,
+.condition-group_add-group {
+    display: inline-block;
+    color: #eee;
+    padding: 7px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 7px;
+}
+.condition-group_delete {
+    background: #c53d2a;
+}
+.condition-group_add-clause,
+.condition-group_add-group {
+    background: #738898;
+}
+
+
+.operator {
+    display: inline-block;
+    vertical-align: middle;
+    background: #ddd;
+    padding: 7px;
+    border-radius: 3px;
+    margin: 0 7px;
+}
+
+.condition {
+    display: inline-block;
+    vertical-align: middle;
+    background: #ddd;
+    padding: 7px;
+    border-radius: 3px;
+    margin: 0 7px;
+}
+.condition_property {
+    margin-right: 7px;
+}
+.condition_value {
+    margin-left: 7px;
+}
+
+.javascript-code,
+.sql-code {
+    padding: 12px;
+    border-radius: 2px;
+    background: #332f2b;
+    color: #f5d281;
+}
